@@ -1,15 +1,15 @@
 alert("hello");
 
 //first challenge
-let massMark=78;
-let massJohn=92;
-let heightMark=1.69;
-let heightJohn=1.95;
-let BMIMark=(massMark/(heightMark*heightMark));
-let BMIJohn=(massJohn/(heightJohn*heightJohn));
-let markhigherBMI=(BMIMark>BMIJohn);
-console.log(BMIJohn)
-console.log(BMIMark)
+let massMarK=78;
+let massJohN=92;
+let heightMarK=1.69;
+let heightJohN=1.95;
+let BMIMarK=(massMark/(heightMarK*heightMarK));
+let BMIJohN=(massJohn/(heightJohN*heightJohN));
+let markhigherBMI=(BMIMarK>BMIJohN);
+console.log(BMIJohN)
+console.log(BMIMarK)
 console.log(markhigherBMI)
 
 //second challenge
@@ -27,3 +27,14 @@ if(BMIMark>BMIMark){
 else{
     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
 }
+
+//third
+let scoreDolphins=((96+108+89)/3);
+let scoreKoalas=((91+110+88)/3);
+if(scoreDolphins>scoreKoalas){
+    console.log("Dolphins win the trophy");
+}
+else if(scoreDolphins<scoreKoalas){
+    console.log("Koalas win the trophy");
+}
+else{console.log("Both win the trophy");}

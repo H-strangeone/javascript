@@ -38,3 +38,39 @@ else if(scoreDolphins<scoreKoalas){
     console.log("Koalas win the trophy");
 }
 else{console.log("Both win the trophy");}
+
+//4th
+const calcAverage= (x,y,z)=>{
+    return (x+y+z)/3;
+}
+let scoreDolphinS=calcAverage(65,54,49)
+let scoreKoalaS=calcAverage(65,54,49)
+function checkWinner(x,y){
+    if(x>y){const calcAverage= (x,y,z)=>{
+        return (x+y+z)/3;
+    }
+    let scoreDolphins=calcAverage(65,54,49)
+    let scoreKoalas=calcAverage(65,54,49)
+    function checkWinner(x,y){
+        if(x>y){
+            let str=`Dolphins win (${x} vs ${y})`
+            console.log(str);
+        }
+        else if(y>x){
+            let str1=`Koalas win (${y} vs ${x})`
+            console.log(str1);
+        }
+        else{console.log("No team wins...")}
+    }
+    checkWinner(scoreDolphins,scoreKoalas);
+    
+        let str=`Dolphins win (${x} vs ${y})`
+        console.log(str);
+    }
+    else if(y>x){
+        let str1=`Koalas win (${y} vs ${x})`
+        console.log(str1);
+    }
+    else{console.log("No team wins...")}
+}
+checkWinner(scoreDolphins,scoreKoalas);

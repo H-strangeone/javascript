@@ -10,4 +10,5 @@ console.log(newobject[interestedin]);
 alert(newobject[interestedin])
 newobject.location='peace';
 newobject.github='hiteshgitman';
-alert(newobject);
+console.log(newobject);
+console.log(`${newobject.firstname} has ${(newobject.friends).length} friends and his best friend is ${newobject.friends[0]}`);

@@ -8,3 +8,6 @@ const newobject={
 const interestedin = prompt('what do you want know , choose between firstname, lastname, age, friends');
 console.log(newobject[interestedin]);
 alert(newobject[interestedin])
+newobject.location='peace';
+newobject.github='hiteshgitman';
+alert(newobject);

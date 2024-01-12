@@ -6,4 +6,4 @@ const newobject={
 }
 //prompt is input in js
 const interestedin = prompt('what do you want know , choose between firstname, lastname, age, friends');
-console.log(jonas[interestedin]);
+console.log(newobject[interestedin]);

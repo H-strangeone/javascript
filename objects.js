@@ -7,3 +7,4 @@ const newobject={
 //prompt is input in js
 const interestedin = prompt('what do you want know , choose between firstname, lastname, age, friends');
 console.log(newobject[interestedin]);
+alert(newobject[interestedin])

@@ -1,6 +1,6 @@
 const newobject={
     firstname:'hitesh',
-    lastnamae:'kumar',
+    lastname:'kumar',
     age: 19,
     friends: ['yash', 'mannu', 'dhairya', 'pratush']
 }

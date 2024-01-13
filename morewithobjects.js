@@ -8,4 +8,4 @@ const me={
 }
 //two ways to call this method 
 console.log(me.calcage(2005));
-console.log(me[calcage](2005));//you dont put the 2005 in the[]to pass it to the method here for objects
+console.log(me['calcage'](2005));//you dont put the 2005 in the[]to pass it to the method here for objects
